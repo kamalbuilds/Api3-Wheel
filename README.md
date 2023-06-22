@@ -5,6 +5,13 @@ Airnodes are first-party oracles that are directly operated by the API Providers
 
 The API3 QRNG service is implemented using the Airnode request–response protocol contract AirnodeRrpV0➚ (by way of RrpRequesterV0.sol➚) to acquire a random number.
 
-Deployed Contract Address - https://mumbai.polygonscan.com/tx/0x4e4a91f4ae76d537430f170174b9399cda70ad931e6d717a7cdd54c44950dcf6
+Deployed Contract Address - https://mumbai.polygonscan.com/address/0x4ddEE71A512758DC26A869dAB36ECd0B33c0a8CC
+
+npx @api3/airnode-admin derive-sponsor-wallet-address \
+  --airnode-xpub xpub6CuDdF9zdWTRuGybJPuZUGnU4suZowMmgu15bjFZT2o6PUtk4Lo78KGJUGBobz3pPKRaN9sLxzj21CMe6StP3zUsd8tWEJPgZBesYBMY7Wo \
+  --airnode-address 0x6238772544f029ecaBfDED4300f13A3c4FE84E1D \
+  --sponsor-address 0x4ddEE71A512758DC26A869dAB36ECd0B33c0a8CC
+  
+Sponsor wallet address: 0xf219dbC0d305eAc4C8FaFC2Cfc415b49C3235d76
 
 Airnode V0 addresses could be found here - https://docs.api3.org/reference/airnode/latest/

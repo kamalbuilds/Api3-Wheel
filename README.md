@@ -14,4 +14,6 @@ npx @api3/airnode-admin derive-sponsor-wallet-address \
   
 Sponsor wallet address: 0xf219dbC0d305eAc4C8FaFC2Cfc415b49C3235d76
 
+Topped up with 0.05 MATIC
+
 Airnode V0 addresses could be found here - https://docs.api3.org/reference/airnode/latest/

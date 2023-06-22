@@ -6,7 +6,7 @@ import { wheel } from "./wheel";
 
 const useStore = create(
   devtools((set, get) => ({
-    contractAddress: "0x28a19fFfb7D49108C3838eE6FBDD811f0D998A20",
+    contractAddress: "0x4ddEE71A512758DC26A869dAB36ECd0B33c0a8CC",
 
     wheel: wheel(set, get),
     grid: grid(set, get),
